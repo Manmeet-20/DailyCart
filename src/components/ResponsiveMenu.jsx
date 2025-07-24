@@ -11,11 +11,11 @@ const ResponsiveMenu = ({isNavOpen, setIsNavOpen}) => {
         </div>
         <nav className='mt-12'>
             <ul className='flex flex-col gap-7 text-xl font-semibold'>
-            <Link to={'/'} className="cursor-pointer" onClick={()=>setIsNavOpen(false)}><li>Home</li></Link>
-                <Link to={'/shop'} className="cursor-pointer" onClick={()=>setIsNavOpen(false)}><li>Shop</li></Link>
-                <Link to={'/about'} className="cursor-pointer" onClick={()=>setIsNavOpen(false)}><li>About</li></Link>
-                <Link to={'/contact'} className="cursor-pointer" onClick={()=>setIsNavOpen(false)}><li>Contact</li></Link>
-                <Link><button onClick={()=>setIsNavOpen(false)} className='px-3 py-1 w-max rounded-md bg-green-600 text-white flex items-center gap-1'>Login<FaChevronRight/></button></Link>
+            <Link to={'/'} className="cursor-pointer hover:text-green-700" onClick={()=>setIsNavOpen(false)}><li>Home</li></Link>
+                <Link to={'/shop'} className="cursor-pointer hover:text-green-700" onClick={()=>setIsNavOpen(false)}><li>Shop</li></Link>
+                <Link to={'/about'} className="cursor-pointer hover:text-green-700" onClick={()=>setIsNavOpen(false)}><li>About</li></Link>
+                <Link to={'/contact'} className="cursor-pointer hover:text-green-700" onClick={()=>setIsNavOpen(false)}><li>Contact</li></Link>
+                <Link><button onClick={()=>setIsNavOpen(false)} className='px-3 py-1 w-max rounded-md bg-green-600 text-white flex items-center gap-1 hover:bg-green-700'>Login<FaChevronRight/></button></Link>
             </ul>
         </nav>
       </div>

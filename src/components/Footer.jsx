@@ -12,9 +12,9 @@ const Footer = () => {
                 <div className='mt-3'>
                     <h3 className='font-medium mb-4'>Follow Us</h3>
                     <div className='flex space-x-4'>
-                        <FaFacebook className='w-5 h-5 text-white'/>
-                        <FaInstagram className='w-5 h-5 text-white'/>
-                        <FaTwitter className='w-5 h-5 text-white'/>
+                        <FaFacebook className='w-5 h-5 text-white hover:text-green-700'/>
+                        <FaInstagram className='w-5 h-5 text-white hover:text-green-700'/>
+                        <FaTwitter className='w-5 h-5 text-white hover:text-green-700'/>
                     </div>
                 </div>
             </div>
